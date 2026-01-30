@@ -1,0 +1,22 @@
+---
+title: "notes"
+output: html_document
+date: "2026-01-20"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown belongs to a project which github connection was made directly from Rstudio to a github repo. Different to what I have been done before which was to make a repo on github and then clone it into Rstudio.
+
+The following lines of code call libraries useful for data wrnagling
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(readxl)
+```
+
+
